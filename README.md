@@ -22,7 +22,7 @@ This project is a minimal full-stack example:
 - backend/: Maven webapp (Java servlet backend)
 - backend/src/main/webapp/static/: frontend JS/CSS/HTML
 - sql/schema.sql: database schema
-- ORIGINAL_UPLOADED_PATH.txt: path to the original project zip you uploaded
+
 
 ## Notes
 - Uses Gson for JSON handling (maven dependency included).
