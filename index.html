@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Project Management - Demo</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Project Management (Java + JS)</h1>
+
+    <section>
+      <h2>Create User</h2>
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Create</button>
+      </form>
+      <div id="createResult"></div>
+    </section>
+
+    <section>
+      <h2>All Users</h2>
+      <button id="loadUsers">Load Users</button>
+      <ul id="usersList"></ul>
+    </section>
+  </div>
+
+  <script src="static/js/app.js"></script>
+</body>
+</html>
