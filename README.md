@@ -1,4 +1,4 @@
-# Project Management System (Full-stack Java + JavaScript)
+# Project Management System 
 
 ## Overview
 This project is a minimal full-stack example:
