@@ -27,3 +27,26 @@ This project is a minimal full-stack example:
 ## Notes
 - Uses Gson for JSON handling (maven dependency included).
 - Servlet API scope is `provided` — use Tomcat/Jetty to run.
+
+## Review 2 Details
+
+### Code Quality & Testing
+- The project is implemented using modular Java Servlets with clear separation of concerns.
+- Proper exception handling is implemented using try-catch blocks.
+- Input validation is performed on both client-side and server-side.
+- All CRUD operations (Create, Read, Update, Delete) for Users, Projects, and Tasks were tested manually.
+- The application handles invalid inputs and runtime errors without crashing.
+
+### Teamwork & Collaboration
+- This project was developed as a team project.
+- I was primarily responsible for designing, coding, database integration, and integrating the core modules of the application.
+- Team members contributed by assisting with documentation, testing, and review feedback.
+- GitHub was used for version control and collaborative project management.
+
+### Innovation / Extra Effort
+- Both client-side and server-side data validation have been implemented.
+- User-friendly success and error messages are displayed after each operation.
+- A clean and simple user interface is used to improve usability.
+- Future scope has been planned for adding authentication, role-based access, and advanced reporting features.
+
+
